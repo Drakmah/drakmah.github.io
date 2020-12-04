@@ -1,0 +1,117 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Jekyll</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+  </head>
+  <body>
+    <nav class="topnav" id="myTopnav">
+  
+    <a href="/Ciberseguridad-PePS/" >Índice</a>
+  
+    <a href="/Ciberseguridad-PePS/README.html" >Acerca de</a>
+  
+    <a href="/Ciberseguridad-PePS/intro.html" >Intro</a>
+  
+  <a href="javascript:void(0);" class="icon" onclick="showMenu()">
+    <i class="fa fa-bars"></i>
+  </a>
+</nav>
+
+
+    
+<a class='pdf' alt='Versión en Pdf' title='Versión en PDF' href="/Ciberseguridad-PePS/assets/pdf/2020-11-02-Github pages.pdf"> (Descarga la versión en <i class="fas fa-file-pdf"></i>)</a>
+        <div class="PageNavigation" id="pageNavigation">
+    
+        <a class="prev" href="/Ciberseguridad-PePS/tema1/git/2020/11/01/Git.html">&laquo; Git</a>
+    
+    
+        <a class="next" href="/Ciberseguridad-PePS/tema1/git/2020/11/03/jekyll.html">Jekyll &raquo;</a>
+    
+</div>
+
+
+        
+        <div>
+            
+            <div id="menuContainer">
+                
+                <div class="top-hidden" id="topFixed">
+                    <a class="toogle expanded pull-left js-toolbar-action" aria-label="" href="#"><i class="fas fa-align-justify"></i></a>
+                </div>
+            </div>
+        </div>
+        <div id='content'>
+        <h1 id="github-pages">GitHub Pages</h1>
+<p>Ya que tenemos una cuenta en <code class="language-plaintext highlighter-rouge">GitHub</code>, vamos a usar la posibilidad de alojar una web estática personal en la url <code class="language-plaintext highlighter-rouge">https://nombre-de-usuario.github.io</code></p>
+
+<p>Esta web la usaremos para realizar las actividades del módulo. De esta forma, podéis practicar con git y tener siempre actualizadas las mismas.</p>
+
+<blockquote>
+  <p>En mi opinión personal, la mejor herramienta para trabajar en formato <strong>markdown</strong> es <a href="https://typora.io/">typora</a></p>
+</blockquote>
+
+<p>Hay muchas webs alojadas en <code class="language-plaintext highlighter-rouge">GitHub</code>: <a href="https://getbootstrap.com/">Bootstrap</a>, <a href="https://semantic-ui.com/">Semantic UI</a>, <a href="https://www.electronjs.org/">Electron</a>, <a href="https://get.foundation/">Foundation</a>, <a href="https://design.facebook.com/">Facebook design</a>, …</p>
+
+<p>En las siguientes URLs tenéis más ejemplos:</p>
+<ul>
+  <li><a href="https://github.com/collections/github-pages-examples">https://github.com/collections/github-pages-examples</a></li>
+  <li><a href="https://webdesignledger.com/best-github-project-pages/">https://webdesignledger.com/best-github-project-pages/</a></li>
+</ul>
+
+<p>Crear una página personal o para un proyecto es muy sencillo (además de gratis):</p>
+<ol>
+  <li>Crear un nuevo repositorio con el formato <code class="language-plaintext highlighter-rouge">username.github.io</code> donde <code class="language-plaintext highlighter-rouge">username</code> es vuestro nombre usuario de <code class="language-plaintext highlighter-rouge">GitHub</code>. También lo podéis crear en cualquier repositorio si os dais de alta en <a href="https://education.github.com/students">GitHub Student Developer Pack</a></li>
+  <li>Clonar el repositorio en local
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git clone https://github.com/username/username.github.io
+</code></pre></div>    </div>
+    <p>Por ejemplo, en mi caso es:</p>
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git clone https://github.com/victorponz/victorponz.github.io
+</code></pre></div>    </div>
+  </li>
+  <li>Ir al directorio local del proyecto y crear una página de ejemplo
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cd </span>victorponz.github.io
+<span class="nb">echo</span> <span class="s2">"Hello World"</span> <span class="o">&gt;</span> index.html
+</code></pre></div>    </div>
+  </li>
+  <li>Hacer un <code class="language-plaintext highlighter-rouge">push</code>
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git add <span class="nt">--all</span>
+git commit <span class="nt">-m</span> <span class="s2">"Initial commit"</span>
+git push <span class="nt">-u</span> origin master
+</code></pre></div>    </div>
+  </li>
+  <li>Ya está!! https://victorponz.github.io/</li>
+</ol>
+
+<h2 id="crea-tu-página-personal">Crea tu página personal</h2>
+
+<blockquote class="task">
+<i class="fa fa-check"> </i><strong> Tarea</strong><br /> Crea tu página en GitHub Pages. Todas las prácticas que hagas, las has de crear como un nuevo post y en la tarea de Moodle hacer referencia al mismo
+</blockquote>
+
+        </div>
+        <div class="PageNavigation" id="pageNavigation">
+    
+        <a class="prev" href="/Ciberseguridad-PePS/tema1/git/2020/11/01/Git.html">&laquo; Git</a>
+    
+    
+        <a class="next" href="/Ciberseguridad-PePS/tema1/git/2020/11/03/jekyll.html">Jekyll &raquo;</a>
+    
+</div>
+
+        <hr>
+<div id="disqus_thread"></div>
+<script>
+var disqus_config = function () {
+    this.page.url = 'https://victorponz.github.io//tema1/git/2020/11/02/Github-pages.html';  // Replace PAGE_URL with your page's canonical URL variable
+};
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://https-victorponz-github-io-ciberseguridad-peps.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+  </body>
+</html>
