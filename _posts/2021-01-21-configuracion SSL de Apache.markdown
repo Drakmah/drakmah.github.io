@@ -1,8 +1,8 @@
 ---
 typora-root-url: ../
 layout: post
-title:  "Configuracion básica de Apache"
-categories: puesta en produccion segura
+title:  "Configuración SSL de Apache"
+categories: puesta en producción segura
 
 ---
 # Configuracion SSL de Apache
