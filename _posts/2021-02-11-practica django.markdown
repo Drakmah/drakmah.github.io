@@ -110,3 +110,4 @@ Ejecutamos el comando `docker-compose up` desde el directorio raíz de nuestro p
 > **Recursos:**
 >
 > <https://github.com/Drakmah/PracticasPeps/tree/main/practicadjango>
+
